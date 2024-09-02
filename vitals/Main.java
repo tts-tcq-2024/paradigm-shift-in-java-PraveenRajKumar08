@@ -7,7 +7,7 @@ public class Main {
 	static float SOC_MIN_VALUE = 20;
 	
 	    static boolean isWithinRange(float value, float min, float max) {
-	        return value < min || value > max;  
+	        return value < min && value > max;  
 	    }
 	    
 	    static boolean batteryIsOk(float temperature, float soc, float chargeRate) {
