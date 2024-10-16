@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: javac vitals/BatteryStatusManager.java
     - name: Verify
-      run: java -ea -classpath . BatteryStatusManager.Main
+      run: java -ea -classpath . vitals.BatteryStatusManager
